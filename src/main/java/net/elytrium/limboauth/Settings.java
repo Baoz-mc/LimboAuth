@@ -55,7 +55,7 @@ public class Settings extends YamlConfig {
       "GSON_COLOR_DOWNSAMPLING - Same as GSON, but uses downsampling."
   })
   public Serializers SERIALIZER = Serializers.LEGACY_AMPERSAND;
-  public String PREFIX = "LimboAuth &6>>&f";
+  public String PREFIX = "&bGenzMc &e| &f";
 
   @Create
   public MAIN MAIN;
@@ -386,75 +386,75 @@ public class Settings extends YamlConfig {
 
     public static class STRINGS {
 
-      public String RELOAD = "{PRFX} &aReloaded successfully!";
-      public String ERROR_OCCURRED = "{PRFX} &cAn internal error has occurred!";
-      public String RATELIMITED = "{PRFX} &cPlease wait before next usage!";
-      public String DATABASE_ERROR_KICK = "{PRFX} &cA database error has occurred!";
+      public String RELOAD = "{PRFX} &aTải lại thành công!";
+      public String ERROR_OCCURRED = "{PRFX} &cĐã xảy ra lỗi nội bộ!";
+      public String RATELIMITED = "{PRFX} &cVui lòng đợi trước khi sử dụng tiếp!";
+      public String DATABASE_ERROR_KICK = "{PRFX} &cLỗi cơ sở dữ liệu đã xảy ra!";
 
-      public String NOT_PLAYER = "{PRFX} &cСonsole is not allowed to execute this command!";
-      public String NOT_REGISTERED = "{PRFX} &cYou are not registered or your account is &6PREMIUM!";
-      public String CRACKED_COMMAND = "{PRFX}{NL}&aYou can not use this command since your account is &6PREMIUM&a!";
-      public String WRONG_PASSWORD = "{PRFX} &cPassword is wrong!";
+      public String NOT_PLAYER = "{PRFX} &cConsole không được phép thực hiện lệnh này!";
+      public String NOT_REGISTERED = "{PRFX} &cBạn chưa đăng ký hoặc tài khoản của bạn là &6PREMIUM!";
+      public String CRACKED_COMMAND = "{PRFX}{NL}&aBạn không thể sử dụng lệnh này vì tài khoản của bạn là &6PREMIUM&a!";
+      public String WRONG_PASSWORD = "{PRFX} &cMật khẩu không đúng!";
 
-      public String NICKNAME_INVALID_KICK = "{PRFX}{NL}&cYour nickname contains forbidden characters. Please, change your nickname!";
-      public String RECONNECT_KICK = "{PRFX}{NL}&cReconnect to the server to verify your account!";
+      public String NICKNAME_INVALID_KICK = "{PRFX}{NL}&cTên của bạn chứa ký tự không hợp lệ. Vui lòng đổi tên!";
+      public String RECONNECT_KICK = "{PRFX}{NL}&cKết nối lại server để xác minh tài khoản!";
 
       @Comment("6 hours by default in ip-limit-valid-time")
-      public String IP_LIMIT_KICK = "{PRFX}{NL}{NL}&cYour IP has reached max registered accounts. If this is an error, restart your router, or wait about 6 hours.";
-      public String WRONG_NICKNAME_CASE_KICK = "{PRFX}{NL}&cYou should join using username &6{0}&c, not &6{1}&c.";
+      public String IP_LIMIT_KICK = "{PRFX}{NL}{NL}&cIP của bạn đã đạt giới hạn tài khoản đăng ký. Nếu đây là lỗi, hãy khởi động lại router hoặc đợi khoảng 6 tiếng.";
+      public String WRONG_NICKNAME_CASE_KICK = "{PRFX}{NL}&cBạn cần đăng nhập bằng tên &6{0}&c, không phải &6{1}&c.";
 
-      public String BOSSBAR = "{PRFX} You have &6{0} &fseconds left to log in.";
-      public String TIMES_UP = "{PRFX}{NL}&cAuthorization time is up.";
+      public String BOSSBAR = "{PRFX} Bạn còn &6{0} &fgiây để đăng nhập.";
+      public String TIMES_UP = "{PRFX}{NL}&cThời gian xác thực đã hết.";
 
       @Comment(value = "Can be empty.", at = Comment.At.SAME_LINE)
-      public String LOGIN_PREMIUM = "{PRFX} You've been logged in automatically using the premium account!";
+      public String LOGIN_PREMIUM = "{PRFX} Bạn đã được tự động đăng nhập thông qua acc bản quyền!";
       @Comment(value = "Can be empty.", at = Comment.At.SAME_LINE)
-      public String LOGIN_PREMIUM_TITLE = "{PRFX} Welcome!";
+      public String LOGIN_PREMIUM_TITLE = "{PRFX} Chào mừng đến với GenzMc!";
       @Comment(value = "Can be empty.", at = Comment.At.SAME_LINE)
-      public String LOGIN_PREMIUM_SUBTITLE = "&aYou have been logged in as premium player!";
+      public String LOGIN_PREMIUM_SUBTITLE = "&aBạn đã đăng nhập với tư cách người chơi bản quyền!";
       @Comment(value = "Can be empty.", at = Comment.At.SAME_LINE)
-      public String LOGIN_FLOODGATE = "{PRFX} You've been logged in automatically using the bedrock account!";
+      public String LOGIN_FLOODGATE = "{PRFX} Bạn đã đăng nhập tự động bằng tài khoản bedrock!";
       @Comment(value = "Can be empty.", at = Comment.At.SAME_LINE)
-      public String LOGIN_FLOODGATE_TITLE = "{PRFX} Welcome!";
+      public String LOGIN_FLOODGATE_TITLE = "{PRFX} hào mừng đến với GenzMc!";
       @Comment(value = "Can be empty.", at = Comment.At.SAME_LINE)
-      public String LOGIN_FLOODGATE_SUBTITLE = "&aYou have been logged in as bedrock player!";
+      public String LOGIN_FLOODGATE_SUBTITLE = "&aBạn đã đăng nhập với tư cách là người chơi bedrock!";
 
-      public String LOGIN = "{PRFX} &aPlease, login using &6/login <password>&a, you have &6{0} &aattempts.";
-      public String LOGIN_WRONG_PASSWORD = "{PRFX} &cYou''ve entered the wrong password, you have &6{0} &cattempts left.";
-      public String LOGIN_WRONG_PASSWORD_KICK = "{PRFX}{NL}&cYou've entered the wrong password numerous times!";
-      public String LOGIN_SUCCESSFUL = "{PRFX} &aSuccessfully logged in!";
+      public String LOGIN = "{PRFX} &aĐề đăng nhập hãy sài lệnh &6/login <password>&a, bạn có &6{0} &llần thử.";
+      public String LOGIN_WRONG_PASSWORD = "{PRFX} &cBạn đã nhập sai password, bạn còn &6{0} &clần thử.";
+      public String LOGIN_WRONG_PASSWORD_KICK = "{PRFX}{NL}&cBạn đã nhập sai password quá nhiều lần!";
+      public String LOGIN_SUCCESSFUL = "{PRFX} &aĐăng nhập thành công!";
       @Comment(value = "Can be empty.", at = Comment.At.SAME_LINE)
-      public String LOGIN_TITLE = "&fPlease, login using &6/login <password>&a.";
+      public String LOGIN_TITLE = "&faĐề đăng nhập hãy sài lệnh &6/login <password>&a.";
       @Comment(value = "Can be empty.", at = Comment.At.SAME_LINE)
-      public String LOGIN_SUBTITLE = "&aYou have &6{0} &aattempts.";
+      public String LOGIN_SUBTITLE = "&aBạn có &6{0} &alần thử.";
       @Comment(value = "Can be empty.", at = Comment.At.SAME_LINE)
       public String LOGIN_SUCCESSFUL_TITLE = "{PRFX}";
       @Comment(value = "Can be empty.", at = Comment.At.SAME_LINE)
-      public String LOGIN_SUCCESSFUL_SUBTITLE = "&aSuccessfully logged in!";
+      public String LOGIN_SUCCESSFUL_SUBTITLE = "&aĐăng nhập thành công!";
 
       @Comment("Or if register-need-repeat-password set to false remove the \"<repeat password>\" part.")
-      public String REGISTER = "{PRFX} Please, register using &6/register <password> <repeat password>";
-      public String REGISTER_DIFFERENT_PASSWORDS = "{PRFX} &cThe entered passwords differ from each other!";
-      public String REGISTER_PASSWORD_TOO_SHORT = "{PRFX} &cYou entered a too short password, use a different one!";
-      public String REGISTER_PASSWORD_TOO_LONG = "{PRFX} &cYou entered a too long password, use a different one!";
-      public String REGISTER_PASSWORD_UNSAFE = "{PRFX} &cYour password is unsafe, use a different one!";
-      public String REGISTER_SUCCESSFUL = "{PRFX} &aSuccessfully registered!";
+      public String REGISTER = "{PRFX} Để đăng ký bạn cần sài lệnh &6/register <password> <repeat password>";
+      public String REGISTER_DIFFERENT_PASSWORDS = "{PRFX} &cHai mật khẩu bị khác nhau rồi bạn oi!";
+      public String REGISTER_PASSWORD_TOO_SHORT = "{PRFX} &cMật khẩu của bạn ngắn quá, hãy thử lại cái khác nhé!";
+      public String REGISTER_PASSWORD_TOO_LONG = "{PRFX} &cMật khẩu của bạn dài quá, hãy thử lại cái khác nhé!";
+      public String REGISTER_PASSWORD_UNSAFE = "{PRFX} &cMật khẩu của bạn thiếu an toàn quá, hãy thử lại cái khác nhé!";
+      public String REGISTER_SUCCESSFUL = "{PRFX} &aĐăng ký thành công!";
       @Comment(value = "Can be empty.", at = Comment.At.SAME_LINE)
       public String REGISTER_TITLE = "{PRFX}";
       @Comment(value = "Can be empty.", at = Comment.At.SAME_LINE)
-      public String REGISTER_SUBTITLE = "&aPlease, register using &6/register <password> <repeat password>";
+      public String REGISTER_SUBTITLE = "&aĐể đăng ký bạn cần sài lệnh &6/register <password> <repeat password>";
       @Comment(value = "Can be empty.", at = Comment.At.SAME_LINE)
       public String REGISTER_SUCCESSFUL_TITLE = "{PRFX}";
       @Comment(value = "Can be empty.", at = Comment.At.SAME_LINE)
-      public String REGISTER_SUCCESSFUL_SUBTITLE = "&aSuccessfully registered!";
+      public String REGISTER_SUCCESSFUL_SUBTITLE = "&aĐăng ký thành công!";
 
-      public String UNREGISTER_SUCCESSFUL = "{PRFX}{NL}&aSuccessfully unregistered!";
-      public String UNREGISTER_USAGE = "{PRFX} Usage: &6/unregister <current password> confirm";
+      public String UNREGISTER_SUCCESSFUL = "{PRFX}{NL}&aHủy đăng ký thành công!";
+      public String UNREGISTER_USAGE = "{PRFX} Sử dụng: &6/unregister <Mật khẩu hiện tại> xác nhận";
 
-      public String PREMIUM_SUCCESSFUL = "{PRFX}{NL}&aSuccessfully changed account state to &6PREMIUM&a!";
-      public String ALREADY_PREMIUM = "{PRFX} &cYour account is already &6PREMIUM&c!";
-      public String NOT_PREMIUM = "{PRFX} &cYour account is not &6PREMIUM&c!";
-      public String PREMIUM_USAGE = "{PRFX} Usage: &6/premium <current password> confirm";
+      public String PREMIUM_SUCCESSFUL = "{PRFX}{NL}&aĐã thay đổi thành công trạng thái tài khoản thành &6BẢN QUYỀN&a!";
+      public String ALREADY_PREMIUM = "{PRFX} &cTài khoản của bạn đã ở trạng thái &6BẢN QUYỀN&c!";
+      public String NOT_PREMIUM = "{PRFX} &cTài khoản của bạn không phải tài khoàn &6BẢN QUYỀN&c!";
+      public String PREMIUM_USAGE = "{PRFX} Sử dụng: &6/premium <Mật khẩu hiện tại> để xác nhận";
 
       public String EVENT_CANCELLED = "{PRFX} Authorization event was cancelled";
 
@@ -465,15 +465,15 @@ public class Settings extends YamlConfig {
 
       public String REGISTRATIONS_DISABLED_KICK = "{PRFX} Registrations are currently disabled.";
 
-      public String CHANGE_PASSWORD_SUCCESSFUL = "{PRFX} &aSuccessfully changed password!";
+      public String CHANGE_PASSWORD_SUCCESSFUL = "{PRFX} &aHoàn thành đổi mật khẩu!";
       @Comment("Or if change-password-need-old-pass set to false remove the \"<old password>\" part.")
-      public String CHANGE_PASSWORD_USAGE = "{PRFX} Usage: &6/changepassword <old password> <new password>";
+      public String CHANGE_PASSWORD_USAGE = "{PRFX} Sử dụng: &6/changepassword <Mật khẩu cũ> <Mật khẩu mới>";
 
-      public String FORCE_CHANGE_PASSWORD_SUCCESSFUL = "{PRFX} &aSuccessfully changed password for player &6{0}&a!";
-      public String FORCE_CHANGE_PASSWORD_MESSAGE = "{PRFX} &aYour password has been changed to &6{0} &aby an administator!";
-      public String FORCE_CHANGE_PASSWORD_NOT_SUCCESSFUL = "{PRFX} &cUnable to change password for &6{0}&c. Most likely this player has never been on this server.";
-      public String FORCE_CHANGE_PASSWORD_NOT_REGISTERED = "{PRFX} &cPlayer &6{0}&c is not registered.";
-      public String FORCE_CHANGE_PASSWORD_USAGE = "{PRFX} Usage: &6/forcechangepassword <nickname> <new password>";
+      public String FORCE_CHANGE_PASSWORD_SUCCESSFUL = "{PRFX} &aHoàn thành đổi mật khẩu cho người chơi &6{0}&a!";
+      public String FORCE_CHANGE_PASSWORD_MESSAGE = "{PRFX} &aMật khẩu của bạn đã được đổi thành &6{0} &abởi admin!";
+      public String FORCE_CHANGE_PASSWORD_NOT_SUCCESSFUL = "{PRFX} &cKhông thể thay đồi mật khẩu cho &6{0}&c. Nhiều khả năng người chơi này chưa từng vào máy chủ này.";
+      public String FORCE_CHANGE_PASSWORD_NOT_REGISTERED = "{PRFX} &cNgười chơi &6{0}&c chưa đăng ký.";
+      public String FORCE_CHANGE_PASSWORD_USAGE = "{PRFX} Sử dụng: &6/forcechangepassword <tên> <mật khẩu mới>";
 
       public String FORCE_REGISTER_USAGE = "{PRFX} Usage: &6/forceregister <nickname> <password>";
       public String FORCE_REGISTER_INCORRECT_NICKNAME = "{PRFX} &cNickname contains forbidden characters.";
@@ -500,9 +500,9 @@ public class Settings extends YamlConfig {
       public String TOTP_TOKEN = "{PRFX} &aYour 2FA token &7(Click to copy)&a: &6{0}";
       public String TOTP_RECOVERY = "{PRFX} &aYour recovery codes &7(Click to copy)&a: &6{0}";
 
-      public String DESTROY_SESSION_SUCCESSFUL = "{PRFX} &eYour session is now destroyed, you'll need to log in again after reconnecting.";
+      public String DESTROY_SESSION_SUCCESSFUL = "{PRFX} &ePhiên của bạn đã bị hủy, bạn cần đăng nhập lại sau khi kết nối lại.";
 
-      public String MOD_SESSION_EXPIRED = "{PRFX} Your session has expired, log in again.";
+      public String MOD_SESSION_EXPIRED = "{PRFX} Phiên của bạn đã hết hạn, hãy đăng nhập lại.";
     }
   }
 
